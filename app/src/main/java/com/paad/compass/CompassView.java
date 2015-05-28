@@ -173,7 +173,7 @@ public class CompassView extends View {
     }
 
     private int measure(int measureSpec) {
-        int result = 0;
+        int result;
 
         // Decode the measurement specifications.
         int specMode = MeasureSpec.getMode(measureSpec);
@@ -226,20 +226,15 @@ public class CompassView extends View {
 
         canvas.drawPath(outerRingPath, pgb);
 
-        LinearGradient skyShader = new LinearGradient(center.x,
-                innerBoundingBox.top, center.x, innerBoundingBox.bottom,
-                skyHorizonColorFrom, skyHorizonColorTo, TileMode.CLAMP);
+        LinearGradient skyShader = new LinearGradient(center.x, innerBoundingBox.top, center.x, innerBoundingBox.bottom, skyHorizonColorFrom, skyHorizonColorTo, TileMode.CLAMP);
 
         Paint skyPaint = new Paint();
         skyPaint.setShader(skyShader);
 
-        LinearGradient groundShader = new LinearGradient(center.x,
-                innerBoundingBox.top, center.x, innerBoundingBox.bottom,
-                groundHorizonColorFrom, groundHorizonColorTo, TileMode.CLAMP);
+        LinearGradient groundShader = new LinearGradient(center.x, innerBoundingBox.top, center.x, innerBoundingBox.bottom, groundHorizonColorFrom, groundHorizonColorTo, TileMode.CLAMP);
 
         Paint groundPaint = new Paint();
         groundPaint.setShader(groundShader);
-
         float tiltDegree = pitch;
         while (tiltDegree > 90 || tiltDegree < -90) {
             if (tiltDegree > 90) tiltDegree = -90 + (tiltDegree - 90);
