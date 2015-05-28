@@ -35,3 +35,11 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:11:9
 	android:name
 		ADDED from AndroidManifest.xml:11:19
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

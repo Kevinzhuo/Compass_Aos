@@ -5,6 +5,8 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 22
         applicationId "com.paad.compass"
     }
 
