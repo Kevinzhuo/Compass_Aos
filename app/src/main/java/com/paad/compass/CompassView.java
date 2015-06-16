@@ -1,5 +1,9 @@
 package com.paad.compass;
 
+/**
+ * kevin
+ */
+
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
