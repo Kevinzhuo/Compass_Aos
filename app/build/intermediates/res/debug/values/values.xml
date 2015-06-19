@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/用户目录/Documents/GitHub/Compass_Aos/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/wangzhuo/GitHub/Compass_Aos/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background_color">#F000</color>
     <color name="horizon_ground_from">#FF5F9EA0</color>
@@ -14,7 +14,7 @@
     <color name="outer_border">#FF444444</color>
     <color name="shadow_color">#7AAA</color>
     <color name="text_color">#FFFF</color>
-    <!-- From: file:/D:/用户目录/Documents/GitHub/Compass_Aos/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/wangzhuo/GitHub/Compass_Aos/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Compass</string>
     <string name="cardinal_east">E</string>
